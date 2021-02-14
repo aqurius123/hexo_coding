@@ -26,6 +26,9 @@ select student_name, score, course_name from `score`
 ORDER BY score desc, student_name;
 > 注意：此时的排序方式是按照分数进行***降序***排序；如果分数相同，则会按照学生名字***升序***排序；如果分数不相同吗，则不会再去对student_name进行升序排序。
 
+## 特别注意
+limit是支持的语法，而oracle是根据rownum来做查询数量限制的
+
 
 
 
