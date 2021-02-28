@@ -11,7 +11,8 @@ from ->
 where -> 
 group by -> 
 having -> 
-select(over -> distinct -> top) -> order by 
+select(over -> distinct -> top) -> order by ->
+limit(Mysql特有语法)
 
 ## 运算符的优先处理顺序：从高到低
 () ->
